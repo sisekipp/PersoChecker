@@ -8,4 +8,4 @@ xcode_project: PersoChecker.xcodeproj
 osx_image: xcode7.3
 
 script:
-- xcodebuild clean build test -project PersoChecker.xcodeproj
+- xcodebuild clean build test -project PersoChecker.xcodeproj -scheme PersoChecker
