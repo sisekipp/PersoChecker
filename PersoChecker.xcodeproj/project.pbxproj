@@ -13,6 +13,7 @@
 		9E6566D71CAEFF63005039A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E6566D51CAEFF63005039A4 /* Main.storyboard */; };
 		9E6566E21CAEFF64005039A4 /* PersoCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6566E11CAEFF64005039A4 /* PersoCheckerTests.swift */; };
 		9E6566ED1CAEFF64005039A4 /* PersoCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6566EC1CAEFF64005039A4 /* PersoCheckerUITests.swift */; };
+		9E6566FB1CAF09A6005039A4 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 9E6566FA1CAF09A6005039A4 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9E6566E81CAEFF64005039A4 /* PersoCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersoCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E6566EC1CAEFF64005039A4 /* PersoCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoCheckerUITests.swift; sourceTree = "<group>"; };
 		9E6566EE1CAEFF64005039A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E6566FA1CAF09A6005039A4 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		9E6566C31CAEFF63005039A4 = {
 			isa = PBXGroup;
 			children = (
+				9E6566FA1CAF09A6005039A4 /* .travis.yml */,
 				9E6566CE1CAEFF63005039A4 /* PersoChecker */,
 				9E6566E01CAEFF64005039A4 /* PersoCheckerTests */,
 				9E6566EB1CAEFF64005039A4 /* PersoCheckerUITests */,
@@ -226,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E6566FB1CAF09A6005039A4 /* .travis.yml in Resources */,
 				9E6566D41CAEFF63005039A4 /* Assets.xcassets in Resources */,
 				9E6566D71CAEFF63005039A4 /* Main.storyboard in Resources */,
 			);
