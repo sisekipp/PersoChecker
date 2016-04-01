@@ -9,4 +9,4 @@ xcode_scheme: PersoCheckerTests
 osx_image: xcode7.3
 
 script:
-- xcodebuild clean build test -project PersoChecker.xcodeproj.xcodeproj -scheme PersoCheckerTests
+- xcodebuild clean build test -project PersoChecker.xcodeproj -scheme PersoCheckerTests
