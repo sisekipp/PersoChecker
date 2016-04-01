@@ -1,5 +1,12 @@
-language: swift
-xcode_project: PersoChecker.xcodeproj # path to your xcodeproj folder
-xcode_scheme: PersoCheckerTests
+language: objective-c
 
+branches:
+only:
+- master
+
+xcode_project: PersoChecker.xcodeproj
+xcode_scheme: PersoCheckerTests
 osx_image: xcode7.3
+
+script:
+- xcodebuild clean build test -project PersoChecker.xcodeproj.xcodeproj -scheme PersoCheckerTests
