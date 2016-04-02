@@ -15,6 +15,19 @@
 		9E6566ED1CAEFF64005039A4 /* PersoCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6566EC1CAEFF64005039A4 /* PersoCheckerUITests.swift */; };
 		9E6566FB1CAF09A6005039A4 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 9E6566FA1CAF09A6005039A4 /* .travis.yml */; };
 		9E6566FD1CAF210A005039A4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9E6566FC1CAF210A005039A4 /* README.md */; };
+		9E6567001CAFD98B005039A4 /* IdentityCardChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6566FF1CAFD98B005039A4 /* IdentityCardChecker.swift */; };
+		9E6567031CAFDA7B005039A4 /* Blocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6567021CAFDA7B005039A4 /* Blocks.swift */; };
+		9E6567061CAFE138005039A4 /* IdentityCardCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6567051CAFE138005039A4 /* IdentityCardCheckerTests.swift */; };
+		9E6567091CB001A8005039A4 /* Checker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6567081CB001A8005039A4 /* Checker.swift */; };
+		9E65670B1CB001FA005039A4 /* Check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E65670A1CB001FA005039A4 /* Check.swift */; };
+		9E65670D1CB002FE005039A4 /* Block1Checker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E65670C1CB002FE005039A4 /* Block1Checker.swift */; };
+		9E6567101CB042F0005039A4 /* Block1CheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E65670F1CB042F0005039A4 /* Block1CheckerTests.swift */; };
+		9E6567121CB04E02005039A4 /* Block2Checker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6567111CB04E02005039A4 /* Block2Checker.swift */; };
+		9E6567141CB04E5C005039A4 /* Block3Checker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6567131CB04E5C005039A4 /* Block3Checker.swift */; };
+		9E6567161CB04EE3005039A4 /* Block4Checker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6567151CB04EE3005039A4 /* Block4Checker.swift */; };
+		9E6567181CB04F7E005039A4 /* Block2CheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6567171CB04F7E005039A4 /* Block2CheckerTests.swift */; };
+		9E65671A1CB04F90005039A4 /* Block3CheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6567191CB04F90005039A4 /* Block3CheckerTests.swift */; };
+		9E65671C1CB04FA1005039A4 /* Block4CheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E65671B1CB04FA1005039A4 /* Block4CheckerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,19 @@
 		9E6566EE1CAEFF64005039A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E6566FA1CAF09A6005039A4 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		9E6566FC1CAF210A005039A4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9E6566FF1CAFD98B005039A4 /* IdentityCardChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityCardChecker.swift; sourceTree = "<group>"; };
+		9E6567021CAFDA7B005039A4 /* Blocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blocks.swift; sourceTree = "<group>"; };
+		9E6567051CAFE138005039A4 /* IdentityCardCheckerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityCardCheckerTests.swift; sourceTree = "<group>"; };
+		9E6567081CB001A8005039A4 /* Checker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checker.swift; sourceTree = "<group>"; };
+		9E65670A1CB001FA005039A4 /* Check.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Check.swift; sourceTree = "<group>"; };
+		9E65670C1CB002FE005039A4 /* Block1Checker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block1Checker.swift; sourceTree = "<group>"; };
+		9E65670F1CB042F0005039A4 /* Block1CheckerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block1CheckerTests.swift; sourceTree = "<group>"; };
+		9E6567111CB04E02005039A4 /* Block2Checker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block2Checker.swift; sourceTree = "<group>"; };
+		9E6567131CB04E5C005039A4 /* Block3Checker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block3Checker.swift; sourceTree = "<group>"; };
+		9E6567151CB04EE3005039A4 /* Block4Checker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block4Checker.swift; sourceTree = "<group>"; };
+		9E6567171CB04F7E005039A4 /* Block2CheckerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block2CheckerTests.swift; sourceTree = "<group>"; };
+		9E6567191CB04F90005039A4 /* Block3CheckerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block3CheckerTests.swift; sourceTree = "<group>"; };
+		9E65671B1CB04FA1005039A4 /* Block4CheckerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block4CheckerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +127,8 @@
 		9E6566CE1CAEFF63005039A4 /* PersoChecker */ = {
 			isa = PBXGroup;
 			children = (
+				9E6567011CAFDA6A005039A4 /* Model */,
+				9E6566FE1CAFD873005039A4 /* Checker */,
 				9E6566CF1CAEFF63005039A4 /* AppDelegate.swift */,
 				9E6566D11CAEFF63005039A4 /* ViewController.swift */,
 				9E6566D31CAEFF63005039A4 /* Assets.xcassets */,
@@ -113,6 +141,7 @@
 		9E6566E01CAEFF64005039A4 /* PersoCheckerTests */ = {
 			isa = PBXGroup;
 			children = (
+				9E6567041CAFE124005039A4 /* Checker */,
 				9E6566E11CAEFF64005039A4 /* PersoCheckerTests.swift */,
 				9E6566E31CAEFF64005039A4 /* Info.plist */,
 			);
@@ -126,6 +155,56 @@
 				9E6566EE1CAEFF64005039A4 /* Info.plist */,
 			);
 			path = PersoCheckerUITests;
+			sourceTree = "<group>";
+		};
+		9E6566FE1CAFD873005039A4 /* Checker */ = {
+			isa = PBXGroup;
+			children = (
+				9E6567071CAFFF94005039A4 /* BlockChecker */,
+				9E6566FF1CAFD98B005039A4 /* IdentityCardChecker.swift */,
+			);
+			name = Checker;
+			sourceTree = "<group>";
+		};
+		9E6567011CAFDA6A005039A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E6567021CAFDA7B005039A4 /* Blocks.swift */,
+				9E65670A1CB001FA005039A4 /* Check.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9E6567041CAFE124005039A4 /* Checker */ = {
+			isa = PBXGroup;
+			children = (
+				9E65670E1CB042D2005039A4 /* BlockChecker */,
+				9E6567051CAFE138005039A4 /* IdentityCardCheckerTests.swift */,
+			);
+			name = Checker;
+			sourceTree = "<group>";
+		};
+		9E6567071CAFFF94005039A4 /* BlockChecker */ = {
+			isa = PBXGroup;
+			children = (
+				9E6567081CB001A8005039A4 /* Checker.swift */,
+				9E65670C1CB002FE005039A4 /* Block1Checker.swift */,
+				9E6567111CB04E02005039A4 /* Block2Checker.swift */,
+				9E6567131CB04E5C005039A4 /* Block3Checker.swift */,
+				9E6567151CB04EE3005039A4 /* Block4Checker.swift */,
+			);
+			name = BlockChecker;
+			sourceTree = "<group>";
+		};
+		9E65670E1CB042D2005039A4 /* BlockChecker */ = {
+			isa = PBXGroup;
+			children = (
+				9E65670F1CB042F0005039A4 /* Block1CheckerTests.swift */,
+				9E6567171CB04F7E005039A4 /* Block2CheckerTests.swift */,
+				9E6567191CB04F90005039A4 /* Block3CheckerTests.swift */,
+				9E65671B1CB04FA1005039A4 /* Block4CheckerTests.swift */,
+			);
+			name = BlockChecker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +338,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E6567161CB04EE3005039A4 /* Block4Checker.swift in Sources */,
+				9E65670B1CB001FA005039A4 /* Check.swift in Sources */,
+				9E6567141CB04E5C005039A4 /* Block3Checker.swift in Sources */,
 				9E6566FD1CAF210A005039A4 /* README.md in Sources */,
+				9E6567121CB04E02005039A4 /* Block2Checker.swift in Sources */,
+				9E6567091CB001A8005039A4 /* Checker.swift in Sources */,
+				9E6567001CAFD98B005039A4 /* IdentityCardChecker.swift in Sources */,
+				9E6567031CAFDA7B005039A4 /* Blocks.swift in Sources */,
 				9E6566D21CAEFF63005039A4 /* ViewController.swift in Sources */,
 				9E6566D01CAEFF63005039A4 /* AppDelegate.swift in Sources */,
+				9E65670D1CB002FE005039A4 /* Block1Checker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +356,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E6567181CB04F7E005039A4 /* Block2CheckerTests.swift in Sources */,
 				9E6566E21CAEFF64005039A4 /* PersoCheckerTests.swift in Sources */,
+				9E6567101CB042F0005039A4 /* Block1CheckerTests.swift in Sources */,
+				9E6567061CAFE138005039A4 /* IdentityCardCheckerTests.swift in Sources */,
+				9E65671C1CB04FA1005039A4 /* Block4CheckerTests.swift in Sources */,
+				9E65671A1CB04F90005039A4 /* Block3CheckerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

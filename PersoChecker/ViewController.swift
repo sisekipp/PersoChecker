@@ -8,8 +8,11 @@
 
 import Cocoa
 
+
 class ViewController: NSViewController {
 
+    let identityCardChecker = IdentityCardChecker()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
