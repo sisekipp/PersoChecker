@@ -20,4 +20,12 @@ class Block2CheckerTests: XCTestCase {
     func test_checkBlock_ForEmptyString() {
         XCTAssertThrowsError(try testee.checkBlock(""))
     }
+    
+    func test_checkBlock_ForSizeToLow() {
+        XCTAssertThrowsError(try testee.checkBlock("640812"))
+    }
+    
+    func test_checkBlock_ForSizeToHigh() {
+        XCTAssertThrowsError(try testee.checkBlock("64081212"))
+    }
 }

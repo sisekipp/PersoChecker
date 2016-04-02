@@ -9,7 +9,8 @@
 import Foundation
 
 enum CheckerError : ErrorType {
-    case InvalidBlock
+    case EmptyBlock
+    case InvalidBlockLength
 }
 
 protocol Checker {

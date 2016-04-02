@@ -11,8 +11,13 @@ import Foundation
 class Block1Checker: Checker {
     func checkBlock(block: String) throws -> Check {
         if(block.isEmpty) {
-            throw CheckerError.InvalidBlock
+            throw CheckerError.EmptyBlock
         }
+        let letters = block.characters.map { String($0) }
+        if(letters.count > 11 || letters.count < 11){
+            throw CheckerError.InvalidBlockLength
+        }
+        
         return Check.Ok
     }
 }
